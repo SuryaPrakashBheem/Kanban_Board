@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: rgb(138, 142, 140);
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+#color_filters{
+    height: 4rem;
+    width:16rem;
+    background-color: rgb(160, 169, 166);
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.actions{
+    height: 3rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+    background-color:rgb(160, 169, 166) ;
+    
+
+}
+.color{
+    height: 1.5rem;
+    width: 3rem;
+    text-align: center;
+    padding: 3px;
+    color: azure;
+}
+.actions>*{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    color: rgb(7, 7, 7);
+    justify-content: center;
+    font-size: 2rem;
+}
+.plus:hover{
+    background-color: rgb(128, 225, 128);
+    font-size: 2.5rem;
+}
+.remove:hover{
+    background-color: rgb(222, 115, 115);
+    font-size: 2.5rem;
+}
+.main_box{
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_box>*{
+    background-color: aqua;
+    height: 18rem;
+    width: 14rem;
+    justify-content: center;
+    overflow-wrap: break-word;
+    margin-left: 2rem;
+    
+}
+.priority_color{
+    height: 2rem;
+    background-color: red;
+}
+.token_id{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.workToBeDone{
+    height: 14rem;
+}
+.lock{
+    font-size: 2rem;
+    display: flex;
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 12rem;
+}
+.modal_box{
+    height: 18rem;
+    width:25rem;
+    background-color: gray;
+    display: none;
+    top:30%;
+    left: 30%;
+    position:absolute;
+}
+.text_area{
+    width: 70%;
+    resize: none;
+    background-color: rgb(199, 194, 194);
+    outline: none;
+}
+.priority_selector{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(66, 64, 64);
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.colormodal{
+    height: 2rem;
+    width: 5rem;
+    text-align: center;
+    padding-top: 6px;
+}
+.red{
+    background-color: red;
+}
+.pink{
+    background-color: pink;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.active{
+    border: 5px solid rgb(104, 191, 232);
+}

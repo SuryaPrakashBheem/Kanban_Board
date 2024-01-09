@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="kanban.css">
+</head>
+<body>
+    <div id="header">
+        <div id="color_filters">
+           <div class="red color"></div>
+           <div class="pink color"></div>
+           <div class="green color"></div>
+           <div class="blue color"></div>
+
+        </div>
+        <div class="actions">
+          <div class="plus"><i class="fa-solid fa-plus"></i></div>
+          <div class="remove"><i class="fa-solid fa-xmark"></i></div>
+        </div>
+    </div>
+    <div class="main_box">
+        <!-- <div class="Ticket1">
+        <div class="priority_color"></div>
+        <div class="token_id">12345</div>
+        <div class="workToBeDone">workout at 6</div>
+        <div class="lock"><i class="fa-solid fa-lock"></i></div>
+            </div> -->
+
+    </div>
+    <div class="modal_box">
+        <textarea class="text_area" placeholder="Enter your Task"></textarea>
+       <div class="priority_selector">
+          <div class="red colormodal">High</div>
+          <div class="pink colormodal">Medium</div>
+          <div class="green colormodal">Low</div>
+          <div class="blue colormodal active">Moderate</div>
+       </div>
+    </div>
+
+    
+</body>
+<script src="kanban.js"></script>
+<script src="https://kit.fontawesome.com/fa3f0be36e.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+</html>
