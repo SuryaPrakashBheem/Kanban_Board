@@ -21,14 +21,6 @@ if(localStorage.getItem('tickets')){
   })
 }
 
-if(localStorage.getItem('tickets')){
-  ticketsArr = JSON.parse(localStorage.getItem('tickets'))
-
-  ticketsArr.forEach(function(ticket){
-      createTickets(ticket.ticketTask , ticket.priority_color , ticket.ticketId )
-  })
-}
-
 add_btn.addEventListener("click", function () {
   addTaskFlag = !addTaskFlag;
   if (addTaskFlag === true) {
